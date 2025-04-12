@@ -119,7 +119,7 @@ export default function AlgorithmPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Banker&apos;s Algorithm
+          Algorithm Code
         </motion.h1>
 
         <motion.div
