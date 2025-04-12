@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Operating System Concepts Project
+
+A modern web application that demonstrates key operating system concepts, focusing on the Banker's Algorithm for deadlock avoidance.
+
+## Features
+
+- **Banker's Algorithm Implementation**: A clean, well-documented implementation of the Banker's Algorithm for deadlock avoidance
+- **Modern UI**: Built with Next.js and Tailwind CSS for a responsive and beautiful interface
+- **Interactive Components**: Smooth animations and transitions using Framer Motion
+- **Code Highlighting**: Syntax highlighting for better code readability
+- **Responsive Design**: Works seamlessly on all device sizes
+
+## Tech Stack
+
+- **Frontend**: Next.js 15, React
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Code Highlighting**: react-syntax-highlighter
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18.0 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Vihananand/os-project.git
+
+cd os-project
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+os-project/
+├── app/
+│   ├── algorithm/         # Banker's Algorithm
+│   ├── globals.css        # Global styles
+│   ├── layout.js          # Root layout
+│   └── page.js            # Home page
+├── public/                # Static assets
+└── tailwind.config.js     # Tailwind configuration
+```
 
-## Learn More
+## Banker's Algorithm
 
-To learn more about Next.js, take a look at the following resources:
+The Banker's Algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety by simulating the allocation of predetermined maximum possible amounts of all resources.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Code
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```javascript
+// Availiable on the website in the Implementation section
+```
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Next.js team for the amazing framework
+- Tailwind CSS for the utility-first CSS framework
+- Framer Motion for the animation library
